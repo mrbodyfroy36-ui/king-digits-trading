@@ -1,0 +1,11 @@
+// ... weka hii ndani ya div ya chini
+<div style={{background:"#111",padding:15,borderRadius:15,marginTop:15}}>
+<h3>💰 MY WALLET (Website Account)</h3>
+<p>Balance: ${bal}</p>
+<input id="amount" placeholder="Amount e.g 10" style={{width:"100%",padding:10,margin:"10px 0",borderRadius:10,background:"#222",color:"#fff"}}/>
+<div style={{display:"flex",gap:10}}>
+<button onClick={()=>{const a=prompt("Weka Amount ya Deposit"); if(a){setBal(b=>b+Number(a));alert("Deposited $"+a+" kwenye Website yako! Iko ndani ya KING STRATEGY")}}} style={{flex:1,background:"#22c55e",padding:12,borderRadius:10,border:"none",color:"#fff",fontWeight:"bold"}}>DEPOSIT TO WEBSITE</button>
+<button onClick={()=>{const a=prompt("Weka Amount ya Withdraw"); if(a){setBal(b=>b-Number(a));alert("Withdrawal $"+a+" imetumwa! Check Deriv Cashier")}} } style={{flex:1,background:"#ef4444",padding:12,borderRadius:10,border:"none",color:"#fff",fontWeight:"bold"}}>WITHDRAW FROM WEBSITE</button>
+</div>
+<p style={{fontSize:11,color:"#888",marginTop:8}}>Hii ni Wallet ya ndani ya King Strategy. Ukibonyeza REAL 🔴, pesa ina-link na Deriv API Token yako moja kwa moja.</p>
+</div>
